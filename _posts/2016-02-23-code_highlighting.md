@@ -40,7 +40,7 @@ is such a widely used, strongly supported, and actively developed Python machine
 > regressor.score(Xvalidation, yvalidation)
 ```
 
-That is a totoal of five lines of code to:
+That is a total of five lines of code to:
 
 1. Fit a model
 2. Predict at new x values

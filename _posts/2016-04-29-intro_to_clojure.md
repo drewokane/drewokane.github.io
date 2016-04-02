@@ -31,4 +31,5 @@ while in Clojure we get:
 (filter #(> % 3) (range 10))
 ```
 
-You could probably say that the Clojure syntax is a little more elegant, but at this point in my Clojure journey, the two methods look pretty similar in brevity. And maybe this is the point, as far as list comprehensions go. List comprehensions are actually quite concise, which is one of the reasons I like Python. 
+You could probably say that the Clojure syntax is a little more elegant, but 
+at this point in my Clojure journey, the two methods look pretty similar in brevity. And maybe this is the point, as far as list comprehensions go. List comprehensions are actually quite concise, which is one of the reasons I like Python. 

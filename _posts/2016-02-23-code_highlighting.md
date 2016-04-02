@@ -52,5 +52,3 @@ This is also why R is also popular with _most_ statisticians. The formula syntax
 
 Not that Theano is difficult to use. The package's main page looks very cluttered and full of information I wish I knew what it meant. *Note to Theano maintainers: the main home page is _very_ cluttered.* The home page that greets you does have links to introductions which, once you find them, are actually quite informative. For the most part, you can pretty much write mathematical operations as you would have in numpy. This is a tremendous advantage. Hurdle number one is not so bad.
 There is some thinking ahead that needs to be done regarding whether the objects you are working with are matrices or vectors, but this is pretty light. Definitely not on the order of having to declare the type and size of arrays like in a compiled language.
-
-$$ \nabla \mathcal{L} $$

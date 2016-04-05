@@ -52,3 +52,18 @@ This is also why R is also popular with _most_ statisticians. The formula syntax
 
 Not that Theano is difficult to use. The package's main page looks very cluttered and full of information I wish I knew what it meant. *Note to Theano maintainers: the main home page is very cluttered.* The home page that greets you does have links to introductions which, once you find them, are actually quite informative. For the most part, you can pretty much write mathematical operations as you would have in numpy. This is a tremendous advantage. Hurdle number one is not so bad.
 There is some thinking ahead that needs to be done regarding whether the objects you are working with are matrices or vectors, but this is pretty light. Definitely not on the order of having to declare the type and size of arrays like in a compiled language.
+
+# Theano for the statistician
+
+A typical task for a statistician using Theano might go something like:
+
+0. Pick a statistical model, given your data
+1. Write out the model likelihood
+2. Estimate the model parameters using the negative log-likelihood (and possibly the gradient if available)
+3. Estimate the uncertianty of the parameters using the Fisher information (the inverse of the Hessian of the negative log-likelihood)
+
+None of the previous tasks with Theano turn out to be that difficult. Let's take a look.
+
+## Writing out the likelihood
+
+

@@ -39,19 +39,50 @@ Fastforward a few years, I have my masters, I've learned R, and I have a job at 
 I'm using Python to do data science. It's all very straighforward. But not quite.
 
 I was hired to work in the Science group at my company, which essentially means that I
-help determine what models and data get used in production, essentially doing proof of concept
+help determine what models and data get used in production, doing proof of concept
 in Python, which is then handed off to software engineers for implementation. This is 
 somewhat standard practice at a medium to large size company from what I can tell. The difficulty,
 and I could probably write a whole other essay on this, is that Engineering implements
 models in Clojure (or Scala to a lesser extent), so there is no continuity of language from
 Science to engineering.
 
-There's several ways you could solve this problem:
+To mitigate this mismatch, I recently decided to learn Clojure, which brings me to the actual
+point of this post.
 
-1. Have your Engineers write tools in the production language that scientists can use
-   for research and prototyping.
-2. Let your Scientists write in their language of choice and then have Engineers translate
-   to the preferred production language.
-3. Have your Engineers and Scientists use the same language for research and production.
+## Not quite learning
 
+Numerous self-paced coding resources exist these days, which is a blessing. Learning to code not
+so long ago usually involved tracking down a book, motivating yourself to invent a project,
+or take a class (if you were lucky) at a local junior college. Now you can go to any of several
+websites that make games out of learning coding. Which has its pros and cons.
 
+For the most part I have been happy with what I have found. The assignments are usually bite
+sized and teach a single concept at a time. Most websites also organize the content so that
+assignments get progressively more complex. Feedback is usually very quick since tests are run
+right at submit time.
+
+While I applaud efforts like this, I have found some of these websites frustrating. The quality
+of the assignments is very spotty. The issues range from poorly worded explanations of the problem
+to unrealistic and obscure test cases. I probably sound bitter.
+
+As a former math teacher I can see the merit of stretching students minds with corner cases, but
+I also know that with self motivating study programs there is usually short window of time where
+the student needs to be rewarded for their efforts. Taunting a student with pathalogical test 
+cases becomes mean. You are no longer teaching, you are rubbing dirt in someones face.
+
+## A compromise?
+
+While I wish I had a good compromise for this kind of situation, I don't see a clear one. As I
+becomes a more and more competant programmer, I have begun to realize that edge cases pop up all
+the time, contrary to popular opinion. The needs of a production environment, however, demand
+results yesterday. It is the agile philosophy of "move fast and break things". In fact most tech
+companies would probably subscribe to this philosophy.
+
+This is a difficult tension to live in. Wanting to produce a product that satisfies a customer
+while covering that edge cases where a thousand customers request information from your server at
+5:30 am and the service crashes.
+
+Learning is much the same way. There is a tension between wanting the student to succeed and see
+the connections between concepts, and the growing and stretching to understand the subtleties
+of a problem. So for now, I leave you with this tension and hope that we all will continue to
+persevere in learning and building better learning tools.

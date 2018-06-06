@@ -11,4 +11,5 @@ There's several ways you could solve this problem:
    to the preferred production language.
 3. Have your Engineers and Scientists use the same language for research and production.
 
-Option 2 seems to be the status quo for most tech companies. 
+Option 2 seems to be the status quo for most tech companies. Option 1 seems like a 
+really cool idea which I have heard some companies claim to do (Stitch Fix for example).

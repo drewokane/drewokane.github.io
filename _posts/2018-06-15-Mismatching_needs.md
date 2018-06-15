@@ -1,7 +1,9 @@
 ---
 layout: post
-title: There be Jabberwockies: A Tale of Mismatched Needs
+title: There be Jabberwockies, A Tale of Mismatched Needs
 ---
+
+## The Manager's Tale
 
 Let's say one day you're sitting in your manager's chair and one of your data scientists
 comes up to you and says, "Hey, I have this fantastic idea that will give us a 10X boost in
@@ -36,7 +38,7 @@ really cool idea which you have heard some companies claim to do
 Option 3 frankly sounds like a place that only unicorns work at. Let's think about each of 
 these options one at a time.
 
-# A Common Tongue (Option 3)
+## A Common Tongue (Option 3)
 
 In a perfect world, there would be only one programming language that did it all. It would
 be the swiss army knife that could do CSV parsing, plotting, data science, and parallel
@@ -60,7 +62,7 @@ Another issue that comes with this option is that you need data scientists and e
 on a language. And it will have to do both tasks well enough. Which will probably disappoint everybody
 at some point. So scratch that.
 
-# SSWEeeet Times (Option 2)
+## SSWEeeet Times (Option 2)
 
 Like I mentioned, this option seems to be the standard method for putting models and improvements
 into production. It then requires some sort of assignment of engineering resources towards
@@ -90,7 +92,7 @@ This arrangement also allows data scientists to abdicate responsibility for writ
 place. Why bother writing something that will scale, has good documentation, and is fast when you have an 
 engineer to do that for you?
 
-# The Nailsmith and The Knight (Option 3)
+## The Nailsmith and The Knight (Option 3)
 
 A small digression, please indulge me. I play [Hollow Knight](http://hollowknight.com/) in my spare time, 
 when I'm not cooking, hiking with my wife and daughter, or building tiny lego towers with my daughter. The
@@ -117,7 +119,7 @@ make the bread, build your own brick oven, chop some wood, and then bake the bre
 farmer *farms*. The knight can't fight monsters all that effectively without a good nail and he can't have
 good tools unless there's a nailsmith to help him.
 
-# Epilogue
+## Epilogue
 
 So where does that leave us? You've been twirling in your managers chair for some time now talking to yourself.
 Your coworkers are giving you odd looks. The facilities manager has even wandered by and asked if you're okay.

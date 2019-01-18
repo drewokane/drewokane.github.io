@@ -92,7 +92,7 @@ This arrangement also allows data scientists to abdicate responsibility for writ
 place. Why bother writing something that will scale, has good documentation, and is fast when you have an 
 engineer to do that for you?
 
-## The Nailsmith and The Knight (Option 3)
+## The Nailsmith and The Knight (Option 1)
 
 A small digression, please indulge me. I play [Hollow Knight](http://hollowknight.com/) in my spare time, 
 when I'm not cooking, hiking with my wife and daughter, or building tiny lego towers with my daughter. The
